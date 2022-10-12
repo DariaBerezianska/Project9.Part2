@@ -46,7 +46,7 @@ public class Main {
     public static void main(String[] args) {
         Movie movie1 = new Movie("Sniper", 2022, "war", 7.4);
         movie1.printDetails();
-        movie1.setFilmRating(6.1);
+        movie1.setFilmRating(6.2);
         System.out.println("People rated this movie " + movie1.getFilmRating() + "/10");
         movie1.setViewingTimeInMinutes(111);
         System.out.println("You will spent " + movie1.getViewingTimeInMinutes() + " minutes and " + movie1.viewingTimeInHours() + " hours to watch this film");
